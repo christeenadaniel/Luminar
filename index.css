@@ -1,0 +1,81 @@
+#head1 {
+        text-align: start;
+  }
+  .heading{
+    background-color: rgb(47, 3, 88);
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: relative;
+  }
+  .hbody{
+    color: white;
+    font-size: 13px;
+    
+  }
+  a{
+    text-decoration: none;
+  }
+  .navig{
+    position: sticky;
+    top: 0px;
+    background-color: rgb(244, 247, 250);
+  }
+
+  .input1 {
+    border: none;
+  }
+  .btn_color{
+    background-color: rgb(53, 3, 100);
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+    padding: 5px;
+ }
+.link{
+  color: rgb(117, 79, 167);
+  text-decoration: none;
+}
+  .colour1{
+    color: rgb(117, 79, 167);
+  }
+  .colour1 a{
+    margin-bottom: 20px;
+  }
+  .text{
+    margin-top: 50px;
+
+  }
+  .our{
+    color:rgb(126, 22, 223);
+    padding-top: 90px;
+    padding-bottom: 20px;
+  }
+.effect:hover div{
+  transform: scale(1.04);
+  box-shadow: 0 4px 8px 0 rgba(231, 207, 207, 0.178), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card:hover{
+  transform: scale(1.04);
+  box-shadow: 0 4px 8px 0 rgba(231, 207, 207, 0.178), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.last_button{
+  border: 2px solid rgb(62, 2, 119);
+}
+.a_effect:hover a{
+  color: rgb(62, 2, 119);
+
+}
+.label_div{
+  margin-left: 10px;
+}
+
+@media (min-width:200) and (max-width:770px){
+  .label_div{
+    font-size: 8px;
+  }
+  .btn{
+    font-size: 10px;
+
+  }
+}
